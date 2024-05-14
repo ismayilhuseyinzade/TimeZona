@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.firstSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F2;
+}
+.firstSection .firstContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstSection .firstContainer .firstTextBox {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 35px;
+}
+.firstSection .firstContainer .firstTextBox h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #0B1C39;
+}
+.firstSection .firstContainer .firstTextBox p {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #383838;
+}
+.firstSection .firstContainer .firstTextBox button {
+  padding: 16px 24px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #4A4A4B;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.firstSection .firstContainer .firstTextBox button:hover {
+  background-color: #FF2020;
+}
